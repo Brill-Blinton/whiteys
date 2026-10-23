@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitey's Garage — Auto Repair · Beaver Falls, PA</title>
+<meta name="description" content="Whitey's Garage — auto repair, brakes, PA state inspections and oil changes at 2780 Darlington Rd, Beaver Falls, PA. Mon–Fri 8–5. Call (724) 846-0188.">
+<style>
+  :root{
+    --bone:#FAF9F6; --ink:#23272B; --steel:#67707A; --yellow:#F2B705; --band:#23272B;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    background:var(--bone); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    line-height:1.6; padding-bottom:76px; /* room for sticky call bar */
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:0 20px;}
+  header{background:var(--band); color:#fff;}
+  .hazard{
+    height:14px;
+    background:repeating-linear-gradient(45deg, var(--yellow) 0 16px, var(--band) 16px 32px);
+  }
+  header .wrap{padding-top:34px; padding-bottom:30px;}
+  h1{
+    font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;
+    font-size:clamp(38px, 9vw, 56px); font-weight:700; letter-spacing:.02em;
+    text-transform:uppercase; line-height:1.02;
+  }
+  h1 span{color:var(--yellow);}
+  .tagline{margin-top:10px; color:#C9CFD6; font-size:15px;}
+  .stars{
+    display:inline-block; margin-top:16px; background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.25); padding:6px 12px; font-size:13.5px;
+  }
+  .stars b{color:var(--yellow);}
+  section{padding:30px 0 6px;}
+  h2{
+    font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;
+    font-size:15px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--steel); margin-bottom:14px;
+  }
+  .services{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+  .svc{
+    border:1.5px solid #E3E1DA; background:#fff; padding:14px;
+    font-weight:600; font-size:15px; display:flex; align-items:center; gap:10px;
+  }
+  .svc::before{content:""; width:10px; height:10px; background:var(--yellow); flex:0 0 auto;}
+  .hours{border:1.5px solid #E3E1DA; background:#fff;}
+  .hours .row{
+    display:flex; justify-content:space-between; padding:12px 16px;
+    border-bottom:1px solid #EEECE6; font-size:15px;
+  }
+  .hours .row:last-child{border-bottom:0;}
+  .hours .row span:last-child{font-weight:700;}
+  .hours .closed span:last-child{color:#A4442E;}
+  .addr{font-size:16.5px; font-weight:600; margin-bottom:6px;}
+  .addr + p{color:var(--steel); font-size:14.5px; margin-bottom:14px;}
+  .maplink{
+    display:inline-block; color:var(--ink); font-weight:700; text-decoration:none;
+    border-bottom:3px solid var(--yellow); padding-bottom:2px; font-size:15px;
+  }
+  .callbar{
+    position:fixed; left:0; right:0; bottom:0; background:var(--band);
+    padding:12px 16px calc(12px + env(safe-area-inset-bottom));
+  }
+  .callbar a{
+    display:block; max-width:680px; margin:0 auto; text-align:center;
+    background:var(--yellow); color:var(--band); text-decoration:none;
+    font-weight:800; font-size:18px; letter-spacing:.04em;
+    padding:15px 10px; text-transform:uppercase;
+    font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;
+  }
+  footer{padding:26px 0 10px; color:var(--steel); font-size:12.5px; text-align:center;}
+  @media (min-width:560px){ .services{grid-template-columns:1fr 1fr 1fr 1fr;} body{padding-bottom:96px;} }
+</style>
+</head>
+<body>
+  <header>
+    <div class="hazard"></div>
+    <div class="wrap">
+      <h1>Whitey's <span>Garage</span></h1>
+      <p class="tagline">Auto repair · Brakes · PA state inspections · Oil changes</p>
+      <div class="stars"><b>4.7 ★</b> on Google</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Hours</h2>
+      <div class="hours">
+        <div class="row"><span>Monday – Friday</span><span>8:00 AM – 5:00 PM</span></div>
+        <div class="row closed"><span>Saturday – Sunday</span><span>Closed</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What we do</h2>
+      <div class="services">
+        <div class="svc">Auto repair</div>
+        <div class="svc">Brakes</div>
+        <div class="svc">PA state inspection</div>
+        <div class="svc">Oil changes</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Find us</h2>
+      <p class="addr">2780 Darlington Rd, Beaver Falls, PA 15010</p>
+      <p>Questions before you come in? Call the shop — a person answers during business hours.</p>
+      <a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Whitey%27s%20Garage%202780%20Darlington%20Rd%20Beaver%20Falls%20PA%2015010" target="_blank" rel="noopener">Get directions on Google Maps →</a>
+    </section>
+
+    <footer>Whitey's Garage · Beaver Falls, PA · (724) 846-0188</footer>
+  </main>
+
+  <div class="callbar">
+    <a href="tel:+17248460188">Call the shop — (724) 846-0188</a>
+  </div>
+</body>
+</html>
