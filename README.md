@@ -1,0 +1,1 @@
+whiteys-garage-page — A one-page public site for a local auto repair shop (hours, services, directions, tap-to-call). Built as the anchor for a small inbound-only phone assistant project: a Twilio voice line will answer common questions after hours and take callback messages for the owner. No outbound calls, no SMS, no recording. Static HTML, hosted on GitHub Pages.
