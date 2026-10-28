@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Whitey's Garage
+ORG:Whitey's Garage
+TEL;TYPE=WORK,VOICE:+17248460188
+ADR;TYPE=WORK:;;2780 Darlington Rd;Beaver Falls;PA;15010;USA
+URL:https://brill-blinton.github.io/whiteys/
+NOTE:Auto repair, brakes, PA state inspections, oil changes. Mon-Fri 8-5.
+END:VCARD
